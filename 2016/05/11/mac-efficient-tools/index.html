@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/avatar.jpeg?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/avatar.jpeg?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Mac小工具," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Ken" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="网上也有很多的介绍如何玩转你的Mac，For example程序员如何优雅地使用 Mac？知乎的这一篇就很不错，当然还有很多，但是今天我还要去写，写我自己一直在用的，而且用的很给力的一些小工具介绍给大家。  用Mac也快一年了，先晒一下我一直在用的一些(多图预警，请注意)  当然还有一些例如QQ，微信，邮箱等啊，这些基本属于必备用品了，这里不多说，上面晒出的5张图是我的5个分类，大家可能也能看出来">
+<meta name="keywords" content="Mac小工具">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mac上的一些高效而又不为人知的小工具">
+<meta property="og:url" content="http://0x002.top/2016/05/11/mac-efficient-tools/index.html">
+<meta property="og:site_name" content="Ken">
+<meta property="og:description" content="网上也有很多的介绍如何玩转你的Mac，For example程序员如何优雅地使用 Mac？知乎的这一篇就很不错，当然还有很多，但是今天我还要去写，写我自己一直在用的，而且用的很给力的一些小工具介绍给大家。  用Mac也快一年了，先晒一下我一直在用的一些(多图预警，请注意)  当然还有一些例如QQ，微信，邮箱等啊，这些基本属于必备用品了，这里不多说，上面晒出的5张图是我的5个分类，大家可能也能看出来">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/005yqym4gw1f3r9ibobpsj31kw0teah0.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/005yqym4gw1f3r9m466a8j31kw0u6n48.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/005yqym4gw1f3r9o6ci0fj31kw0fctbk.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/005yqym4gw1f3r9noms48j31kw0etq53.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/005yqym4gw1f3r9l0rgmyj31kw08xjtc.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/mortenjust/droptogif/master/ux/demos/demo_dragon.gif">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/005yqym4gw1f3rel5vvwcj31ci0gvq7z.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/005yqym4gw1f4fhzvo0v5j30ok1cy44p.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005yqym4gw1f3rhylk54rj30o50hqacz.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005yqym4gw1f3ri13w75uj30xu0hodig.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/005yqym4gw1f3rf7m037fj307g0iq74s.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/005yqym4gw1f3rfcoov8cj306f08u3yy.jpg">
+<meta property="og:image" content="http://www.getmarkman.com/static/img/functions.png">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/005yqym4gw1f3rfja6g8sj30c401g74f.jpg">
+<meta property="og:image" content="http://a1.mzstatic.com/us/r30/Purple18/v4/5a/07/18/5a071851-0448-bb01-245f-cb2e1e95c66c/screen800x500.jpeg">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/005yqym4gw1f3rfpyi9b1j30ha07qjrx.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/mortenjust/androidtool-mac/master/Demos/installapk.gif">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005yqym4gw1f3rfwxobnqj30m7091abi.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/005yqym4gw1f3rfz9dvtjj30np0c7401.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005yqym4gw1f3rg34px9oj31280i6q7c.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/005yqym4gw1f3rgcyn6dlj30pl0dv400.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/005yqym4gw1f3rgmhcj12j31kw0zfgnf.jpg">
+<meta property="og:image" content="https://www.sourcetreeapp.com/images/hero_mac_all.png">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/005yqym4gw1f3rgtrcp11j31kw0eg0wm.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/005yqym4gw1f3rgxd18efj31dy0roq4n.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/005yqym4gw1f3rgzvtp73j30pu0bkq4b.jpg">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/005yqym4gw1f3rh3ii8qej31kw0ben1c.jpg">
+<meta property="og:image" content="http://weiboformac.sinaapp.com/images/screen2.png">
+<meta property="og:image" content="http://ww3.sinaimg.cn/mw690/005yqym4gw1f3rhawlj1sj31kw0rp7d0.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/005yqym4gw1f3rhf4nxlcj30cn02g3yo.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005yqym4gw1f3rhjvzfk6j31cs0tc460.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/005yqym4gw1f3rhkxtayfj30gj032q33.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/005yqym4gw1f3rhlnp45cj30gn039t8u.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/005yqym4gw1f3rhm52yb1j30g903d0st.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/005yqym4gw1f3rhmlcrrjj30fu034dfw.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/005yqym4gw1f3rhn0irrkj30g203274e.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005yqym4gw1f3rhnim0duj30fx02lweg.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005yqym4gw1f3rhnu7jtrj30g60323yp.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/005yqym4gw1f4lme9q34oj31820ogtco.jpg">
+<meta property="og:updated_time" content="2018-05-30T12:39:19.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mac上的一些高效而又不为人知的小工具">
+<meta name="twitter:description" content="网上也有很多的介绍如何玩转你的Mac，For example程序员如何优雅地使用 Mac？知乎的这一篇就很不错，当然还有很多，但是今天我还要去写，写我自己一直在用的，而且用的很给力的一些小工具介绍给大家。  用Mac也快一年了，先晒一下我一直在用的一些(多图预警，请注意)  当然还有一些例如QQ，微信，邮箱等啊，这些基本属于必备用品了，这里不多说，上面晒出的5张图是我的5个分类，大家可能也能看出来">
+<meta name="twitter:image" content="http://ww2.sinaimg.cn/large/005yqym4gw1f3r9ibobpsj31kw0teah0.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://0x002.top/2016/05/11/mac-efficient-tools/"/>
+
+
+
+
+
+  <title>Mac上的一些高效而又不为人知的小工具 | Ken</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Ken</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Talk is cheap. Show me the code</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            Sitemap
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://0x002.top/2016/05/11/mac-efficient-tools/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ken">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ken">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Mac上的一些高效而又不为人知的小工具</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-05-11T10:48:44+08:00">
+                2016-05-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/工具/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/05/11/mac-efficient-tools/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2016/05/11/mac-efficient-tools/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+          
+          <span>&nbsp; | &nbsp;
+          <span id="busuanzi_value_page_pv" ></span>次阅读
+          </span>
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>网上也有很多的介绍如何玩转你的Mac，For example<a href="https://www.zhihu.com/question/20873070" target="_blank" rel="noopener">程序员如何优雅地使用 Mac？</a>知乎的这一篇就很不错，当然还有很多，但是今天我还要去写，写我自己一直在用的，而且用的很给力的一些小工具介绍给大家。</p>
+<a id="more"></a>
+<p>用Mac也快一年了，先晒一下我一直在用的一些(多图预警，请注意)</p>
+<p><img src="http://ww2.sinaimg.cn/large/005yqym4gw1f3r9ibobpsj31kw0teah0.jpg" alt="-c"><br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3r9m466a8j31kw0u6n48.jpg" alt="-c"><br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3r9o6ci0fj31kw0fctbk.jpg" alt="-c"><br><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f3r9noms48j31kw0etq53.jpg" alt="-c"><br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3r9l0rgmyj31kw08xjtc.jpg" alt="-c"></p>
+<p>当然还有一些例如QQ，微信，邮箱等啊，这些基本属于必备用品了，这里不多说，上面晒出的5张图是我的5个分类，大家可能也能看出来，这里捡一些好玩而且经常用到的Application来一起看看。</p>
+<ul>
+<li><a href="https://github.com/mortenjust/droptogif" target="_blank" rel="noopener">Drop to Gif</a></li>
+</ul>
+<p>见名知意，就是将我们平时的一些小视频转成GIF的一个小工具。附上他的一个使用效果<br><img src="https://raw.githubusercontent.com/mortenjust/droptogif/master/ux/demos/demo_dragon.gif" alt="-c"></p>
+<ul>
+<li><a href="https://www.mediaatelier.com/CheatSheet/" target="_blank" rel="noopener">CheatSheet</a></li>
+</ul>
+<p>CheatSheet 做的事情很简单，就是在你使用任何软件的时候，长按Command键，即可显示当前软件的所有快捷键。通过这个提示功能，便能快速地找到你想要的快捷键.下面是在Android Studio上面的使用情景<br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3rel5vvwcj31ci0gvq7z.jpg" alt="-c"></p>
+<ul>
+<li>Sip</li>
+</ul>
+<p>之前推荐的ColorPicker，但是最近却在App Store上面发现了一个更给力的吸色工具，那就是Sip，<br>具体可以去App Store上面看，强大啊<br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f4fhzvo0v5j30ok1cy44p.jpg" alt="-c"></p>
+<ul>
+<li><a href="http://www.cockos.com/licecap/" target="_blank" rel="noopener">licecap</a></li>
+</ul>
+<p>Mac上面小巧的GIF格式录屏App，用户可以自定帧率和录制范围<br><img src="http://ww1.sinaimg.cn/large/005yqym4gw1f3rhylk54rj30o50hqacz.jpg" alt="-c"></p>
+<ul>
+<li><a href="https://www.alfredapp.com/" target="_blank" rel="noopener">Alfred2</a></li>
+</ul>
+<p>可以替代Mac本家的Spotlight搜索的一款自定义的搜索App，这是一款收费软件，如果想玩workflow就要付费了。。。。<br>使用的话看他就够了<br><a href="https://www.zhihu.com/question/20656680" target="_blank" rel="noopener">借助 Alfred 2 的 Workflows 功能可以做哪些好玩的事情？</a><br><a href="http://www.jianshu.com/p/98f53faabbff" target="_blank" rel="noopener">小白使用</a><br><img src="http://ww1.sinaimg.cn/large/005yqym4gw1f3ri13w75uj30xu0hodig.jpg" alt="-c"></p>
+<ul>
+<li><a href="http://www.smartisan.com/apps/smartfinder" target="_blank" rel="noopener">SmartFinder</a></li>
+</ul>
+<p>一款Mac与Android机无缝连接的App，方便自如地管理您在 Android 手机中的内容，锤子出品！<br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3rf7m037fj307g0iq74s.jpg" alt="-c"></p>
+<ul>
+<li><a href="http://snip.qq.com/" target="_blank" rel="noopener">Snip</a></li>
+</ul>
+<p>一款简单的截图工具，可以滚动截屏</p>
+<ul>
+<li><a href="https://macid.co/" target="_blank" rel="noopener">MacID</a></li>
+</ul>
+<p>可以根据手机的蓝牙信号强度（设备间距离越大信号越弱）来控制是否自动解锁或者锁定 Mac。新版本的 MacID 还支持在设备间传递剪贴板内容，感觉又可以少装一个剪贴板传递的应用。<br><a href="http://sspai.com/32055" target="_blank" rel="noopener">教程</a><br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3rfcoov8cj306f08u3yy.jpg" alt="-c"></p>
+<ul>
+<li><a href="http://www.getmarkman.com/" target="_blank" rel="noopener">Mark Man</a></li>
+</ul>
+<p>一款设计稿标注，测量工具。极大节省设计师在设计稿上添加和修改标注的时间，让设计更有爱哦<br><img src="http://www.getmarkman.com/static/img/functions.png" alt="-c"></p>
+<ul>
+<li><a href="http://enjoygineering.com/mounty/" target="_blank" rel="noopener">Mounty</a></li>
+</ul>
+<p>安装<code>brew cask install mounty</code>，Mounty 这个小软件虽然小但是功能挺实用的. 当你插入 NTFS 硬盘后会提示是否创新加载成读写模式. 尤其是写入模式很重要. 因为 Mac OS X 默认没有开启 NTFS 的写入模式. 这样不在需要安装其他软件就可以对 Windows 的 NTFS 硬盘进行复制文件操作啦.当有硬盘接入的时候会显示是否装载成写入模式 , 点击 YES 即可. </p>
+<ul>
+<li><a href="http://manico.im/" target="_blank" rel="noopener">Manico</a></li>
+</ul>
+<p>是一个为 OS X 设计的快速的 App 启动和切换工具，网站上面说的很清楚了已经这里就不阐述了。<br><img src="http://ww2.sinaimg.cn/large/005yqym4gw1f3rfja6g8sj30c401g74f.jpg" alt="-c"></p>
+<ul>
+<li>iSart Menus</li>
+<li>Dr Cleaner</li>
+</ul>
+<p>一款OSX App，清理磁盘和内存，应用程序卸载，系统优化，App Store上面即可下载，今天刚更新的，已经集成了iStart Menus的功能，所以上面的就没介绍了。<br><img src="http://a1.mzstatic.com/us/r30/Purple18/v4/5a/07/18/5a071851-0448-bb01-245f-cb2e1e95c66c/screen800x500.jpeg" alt="-c"></p>
+<ul>
+<li><a href="http://unarchiver.c3.cx/unarchiver" target="_blank" rel="noopener">The Unarchiver</a></li>
+</ul>
+<p>一款小巧的解压缩App，可以使用它解压多达30种不同的压缩格式文件</p>
+<ul>
+<li><a href="http://www.deprez.org/folio_0028_en.html" target="_blank" rel="noopener">ShowOrHide</a></li>
+</ul>
+<p>简单的替换了命令行，可查看隐藏文件的一个小巧的App，简单的不要不要的<br><img src="http://ww2.sinaimg.cn/large/005yqym4gw1f3rfpyi9b1j30ha07qjrx.jpg" alt="-c"></p>
+<ul>
+<li><a href="https://github.com/mortenjust/androidtool-mac" target="_blank" rel="noopener">AndroidTool</a></li>
+</ul>
+<p>代替了你的<code>adb install xx.apk</code>，点击apk就可安装到你手机的一个玩意。还可以对你的手机进行录屏操作，可以去官网查看<br><img src="https://raw.githubusercontent.com/mortenjust/androidtool-mac/master/Demos/installapk.gif" alt="-c"></p>
+<ul>
+<li><a href="https://pqrs.org/osx/karabiner/" target="_blank" rel="noopener">Karabiner</a></li>
+</ul>
+<p>这是一个自定义键盘的一个小软件，用外接机械键盘的小伙伴可以用到这玩意哦。<br><img src="http://ww1.sinaimg.cn/large/005yqym4gw1f3rfwxobnqj30m7091abi.jpg" alt="-c"></p>
+<ul>
+<li><a href="https://www.teamviewer.com/zhCN/?pid=google.tv_ex_en.s.jp&amp;gclid=CjwKEAjwjca5BRCAyaPGi6_h8m8SJADryPLhHxJXh62UA28rzsuE-IpI76BwkQOE6XpGH7XyLAGjiRoCceXw_wcB" target="_blank" rel="noopener">teamViewer</a></li>
+</ul>
+<p>远程协作的一个在线会议软件。<br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3rfz9dvtjj30np0c7401.jpg" alt="-c"></p>
+<ul>
+<li><a href="https://bitbucket.org/galad87/subler/wiki/Home" target="_blank" rel="noopener">Subler</a></li>
+</ul>
+<p>是一个讲视频和字幕合成一体的一个软件。我们有时候看美剧可能没有字幕，但是我们又下载了字幕，还要导入或者一些什么，但是有了这个东西就方便了，我们直接合成就好了。最后file－save<br><img src="http://ww1.sinaimg.cn/large/005yqym4gw1f3rg34px9oj31280i6q7c.jpg" alt="-c"></p>
+<ul>
+<li><a href="https://lastpass.com/zh-hans/" target="_blank" rel="noopener">LastPass</a></li>
+</ul>
+<p>Mac上面的密码管理工具，需要付费，LastPass帮助文档,入门够了<br><a href="https://helpdesk.lastpass.com/zh/" target="_blank" rel="noopener">help文档</a></p>
+<ul>
+<li><a href="http://dcloud.io/" target="_blank" rel="noopener">HBuilder</a></li>
+</ul>
+<p>一款HTML5 IDE，超爽<br><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f3rgcyn6dlj30pl0dv400.jpg" alt="-c"></p>
+<ul>
+<li><a href="https://www.charlesproxy.com/" target="_blank" rel="noopener">Charles</a></li>
+</ul>
+<p>Mac 下常用的网络封包截取工具，付费软件，但是好用的不得了。想驾驭它，看他就够了<br><a href="http://blog.devtang.com/2015/11/14/charles-introduction/" target="_blank" rel="noopener">Charles 从入门到精通</a></p>
+<ul>
+<li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm</a></li>
+</ul>
+<p>之前有一篇文章介绍过它<a href="http://yupengt66y.wang/2016/01/12/iTermConfiguration/" target="_blank" rel="noopener">iTerm新手必知</a><br>还有一篇文章也不错<a href="https://laoshuterry.gitbooks.io/mac_os_setup_guide/content/4_ZshConfig.html" target="_blank" rel="noopener">iTerm配置</a></p>
+<ul>
+<li><a href="http://zh.mweb.im/" target="_blank" rel="noopener">MWeb</a></li>
+</ul>
+<p>付费买的一个markDown编辑器，Mou，markdown也有用过，感觉总是少点什么，但是用了它之后就想过换啊，去官网看他的牛逼功能介绍吧。有付费版，免费版，如果对他要求不高的话，免费足够用了！！<br><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f3rgmhcj12j31kw0zfgnf.jpg" alt="-c"></p>
+<ul>
+<li><a href="https://www.sourcetreeapp.com/" target="_blank" rel="noopener">SourceTree</a></li>
+</ul>
+<p>如果你对git命令用的不6，那么就来用它吧，英文，中文，都有，免费，功能强大，这些能吸引你吗？<br><img src="https://www.sourcetreeapp.com/images/hero_mac_all.png" alt="-c"></p>
+<ul>
+<li><a href="http://www.sublimetext.com/3" target="_blank" rel="noopener">Sublim Text3</a></li>
+</ul>
+<p>代码编辑器或者文本编辑器，跨平台支持Win/Mac/Linux，支持32与64位，支持各种流行编程语言的语法高亮、代码补全等<br><a href="http://www.jianshu.com/p/3cb5c6f2421c" target="_blank" rel="noopener">如何优雅的使用SublimeText3</a><br><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f3rgtrcp11j31kw0eg0wm.jpg" alt="-c"></p>
+<ul>
+<li><p><a href="https://confluence.jetbrains.com/display/WI/WebStorm+EAP" target="_blank" rel="noopener">WebStormEAP</a></p>
+</li>
+<li><p><a href="https://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program" target="_blank" rel="noopener">PHPStormEAP</a></p>
+</li>
+</ul>
+<p><a href="https://www.zhihu.com/question/20936155" target="_blank" rel="noopener">webstorm过人之处</a><br>用法自行搜索就好了。</p>
+<p>上面这两款软件都是出自一家，但是要付费，你可以付费，但是挺贵，你可以去找一些破解版的，一个注册码，但是用着感觉不舒服，上面给出的均是EAP版，不用付费，不用破解，功能几乎完全够你用的啦。</p>
+<ul>
+<li><a href="https://mindnode.com/" target="_blank" rel="noopener">MindNote</a></li>
+</ul>
+<p>头脑风暴思维导图软件<br><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f3rgxd18efj31dy0roq4n.jpg" alt="-c"></p>
+<ul>
+<li>Dash</li>
+</ul>
+<p>App Store上面即可下载，程序员的好帮手，强悍的API文档浏览，搜索功能<br><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f3rgzvtp73j30pu0bkq4b.jpg" alt="-c"></p>
+<ul>
+<li><a href="http://www.hopperapp.com/" target="_blank" rel="noopener">Hopper</a></li>
+</ul>
+<p>一款反汇编工具：Hopper，它有OS X和Linux版本，能够反汇编32/64位Mac，Linux，Windows和iOS可执行文件。<br><a href="http://security.ios-wiki.com/issue-3-8/" target="_blank" rel="noopener">Hopper工具使用</a><br>将我们的可执行文件拖进去即可。<br><img src="http://ww2.sinaimg.cn/large/005yqym4gw1f3rh3ii8qej31kw0ben1c.jpg" alt="-c"></p>
+<ul>
+<li><a href="http://weiboformac.sinaapp.com/" target="_blank" rel="noopener">WeiboX</a></li>
+</ul>
+<p>微博的Mac客户端，不介绍<br><img src="http://weiboformac.sinaapp.com/images/screen2.png" alt="-c"></p>
+<ul>
+<li>Moviest</li>
+</ul>
+<p>Mac上面的一个第三方视频播放软件，App Store可下载。</p>
+<p>下面这些参考stormzhang的来看比较好<br><a href="http://stormzhang.com/devtools/2016/01/15/google-chrome-extension/" target="_blank" rel="noopener">私人珍藏的Chrome插件,吐血推荐</a></p>
+<ul>
+<li>Chrome ADB</li>
+<li>Vysor</li>
+<li>Postman</li>
+<li>pocket</li>
+<li>momentum</li>
+<li>YouTube</li>
+<li>Gliffy Diagrams</li>
+</ul>
+<p>介绍一下最后一个，一个专业的流程图软件<br><img src="http://ww3.sinaimg.cn/mw690/005yqym4gw1f3rhawlj1sj31kw0rp7d0.jpg" alt="-c"></p>
+<p>以上这些去<br><a href="https://chrome.google.com/webstore/category/extensions?hl=zh-CN" target="_blank" rel="noopener">Chrome网上商店</a><br>均可下载。</p>
+<ul>
+<li><a href="https://evernote.com/intl/zh-cn/download/" target="_blank" rel="noopener">Evernote</a></li>
+</ul>
+<p>印象笔记，用这个可以将我们在chrome上浏览好的内容保存在我们印象笔记中，去下载插件就好了<br><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f3rhf4nxlcj30cn02g3yo.jpg" alt="-c"></p>
+<p>还有一个给力的地方就是我们用微信关注他的官方公众号，然后将我们在公众号上面看到的好文章保存到我们的印象笔记中，岂不是极好极好的。</p>
+<ul>
+<li>PDF Reader</li>
+</ul>
+<p>PDF阅读软件，App Store即可下载。</p>
+<ul>
+<li><a href="https://www.wunderlist.com/zh/" target="_blank" rel="noopener">奇妙清单</a></li>
+</ul>
+<p>计划你的一些日程，随时收到提醒，跨平台让你的生活保持同步。<br><img src="http://ww1.sinaimg.cn/large/005yqym4gw1f3rhjvzfk6j31cs0tc460.jpg" alt="-c"></p>
+<p>这里还有一些Chrome的插件介绍，<br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3rhkxtayfj30gj032q33.jpg" alt="-c"></p>
+<p>一个广告屏蔽插件<br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3rhlnp45cj30gn039t8u.jpg" alt="-c"></p>
+<p>见名知意<br><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f3rhm52yb1j30g903d0st.jpg" alt="-c"></p>
+<p>下两个见stormzhang博客<br><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f3rhmlcrrjj30fu034dfw.jpg" alt="-c"></p>
+<p><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f3rhn0irrkj30g203274e.jpg" alt="-c"></p>
+<ul>
+<li><a href="http://zythum.sinaapp.com/youkuhtml5playerbookmark/" target="_blank" rel="noopener">妈妈再也不用担心我的macbook发烫了</a></li>
+</ul>
+<p><img src="http://ww1.sinaimg.cn/large/005yqym4gw1f3rhnim0duj30fx02lweg.jpg" alt="-c"></p>
+<p>一个很好用的博客图片链接生成插件(微博图床)</p>
+<p><img src="http://ww1.sinaimg.cn/large/005yqym4gw1f3rhnu7jtrj30g60323yp.jpg" alt="-c"></p>
+<ul>
+<li><a href="http://git.oschina.net/sinceow/LunarCalendar#git-readme?utm_source=www.appinn.com" target="_blank" rel="noopener">Mac上面一款万年历</a></li>
+</ul>
+<p><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f4lme9q34oj31820ogtco.jpg" alt="-c"><br>怎么样，还可以吧</p>
+<ul>
+<li><a href="https://www.trankynam.com/xtrafinder/" target="_blank" rel="noopener">XtraFinder多样化你的Finder</a></li>
+</ul>
+<p>可以像chrome浏览器一样，tab多开，可以拷贝路径，可以右键新建文件，文件夹…..反正事中文版的，去设置里面看一下，就知道有没有你想要的啦！！</p>
+<p>还有就是百度云盘在Mac上面基本是难用到恶心啊，这里之前我也说过可以有一个插件帮我们搞定这恶心的事情<br><a href="http://blog.csdn.net/dakaring/article/details/46517073" target="_blank" rel="noopener">百度云盘在Mac上的威力</a></p>
+<p>还有一些Mac本身的小技巧<br><a href="http://bbs.feng.com/read-htm-tid-5175817.html" target="_blank" rel="noopener">你可能不知道的小技巧</a><br>Mac上面用机械键盘的壕友们这里也有你们的福利<br><a href="http://bbs.feng.com/read-htm-tid-8746599.html" target="_blank" rel="noopener">OS X下机械键盘的设置和技巧（不仅仅是改苹果键）</a><br><a href="http://www.zhihu.com/question/35050387/answer/72185393?f3fb8ead20=fe19159a03463a82562355da6b7bda6d" target="_blank" rel="noopener">OSX 下一些冷门但是一旦发现就无法自拔的软件</a><br>谢谢你在这多图预警下看到这里了，这里面肯定有你用到的也有你没有用到的，哪怕只有一个能帮助你，也值了啊！</p>
+<p><b>版权声明：</b><br></p>
+<p><hr><br><em>除非注明，本博文章均为原创，转载请以链接形式标明本文地址。</em><br></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechat.png" alt="Ken 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Mac小工具/" rel="tag"># Mac小工具</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/04/18/adb-study-03/" rel="next" title="小白学Android之adb篇(三)">
+                <i class="fa fa-chevron-left"></i> 小白学Android之adb篇(三)
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/05/25/gradle-diff-flavors/" rel="prev" title="Gradle多版本差异化管理">
+                Gradle多版本差异化管理 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpeg"
+                alt="Ken" />
+            
+              <p class="site-author-name" itemprop="name">Ken</p>
+              <p class="site-description motion-element" itemprop="description">Android,BlockChain Developer</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">37</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">33</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/Kenmmm" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://jeiwan.cc/" title="Go Blockchain" target="_blank">Go Blockchain</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ken</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://httpyupengt66ywang.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://0x002.top/2016/05/11/mac-efficient-tools/';
+          this.page.identifier = '2016/05/11/mac-efficient-tools/';
+          this.page.title = 'Mac上的一些高效而又不为人知的小工具';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://httpyupengt66ywang.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.4"></script>
+
+
+  
+
+</body>
+</html>

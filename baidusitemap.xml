@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://0x002.top/2016/06/20/androidStuio-ndk-demo/</loc>
+    <lastmod>2018-05-31T05:57:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>AndroidStudio-NDK初探</title>
+        <pubTime>2016-06-20T11:48:49.000Z</pubTime>
+        
+        <tag>AndroidStudio</tag>
+         
+        <tag>NDK</tag>
+         
+         
+           
+             
+              <breadCrumb title="AndroidStudio" url="http://0x002.top/categories/AndroidStudio/"/>
+          
+             
+              <breadCrumb title="NDK" url="http://0x002.top/categories/AndroidStudio/NDK/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/05/25/gradle-diff-flavors/</loc>
+    <lastmod>2018-05-31T05:57:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>Gradle多版本差异化管理</title>
+        <pubTime>2016-05-25T03:29:49.000Z</pubTime>
+        
+        <tag>AndroidStudio</tag>
+         
+        <tag>Gradle</tag>
+         
+         
+           
+             
+              <breadCrumb title="AndroidStudio" url="http://0x002.top/categories/AndroidStudio/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>http://0x002.top/2016/12/04/xiaochengxu/</loc>
+    <lastmod>2018-05-31T02:23:11.000Z</lastmod>
+    <data>
+        <display>
+        <title>微信小程序初探</title>
+        <pubTime>2016-12-04T09:26:32.000Z</pubTime>
+        
+        <tag>微信小程序</tag>
+         
+         
+           
+             
+              <breadCrumb title="微信小程序" url="http://0x002.top/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2015/12/03/AndroidMultiChannelBuild/</loc>
+    <lastmod>2018-05-30T16:11:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>多渠道打包那些事</title>
+        <pubTime>2015-12-03T03:26:41.000Z</pubTime>
+        
+        <tag>多渠道打包</tag>
+         
+         
+           
+             
+              <breadCrumb title="AndroidStudio" url="http://0x002.top/categories/AndroidStudio/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2015/11/30/android-view-listen-event/</loc>
+    <lastmod>2018-05-30T16:10:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>简单的View冲突事件处理</title>
+        <pubTime>2015-11-30T15:14:11.000Z</pubTime>
+        
+        <tag>Android事件处理</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/01/18/ViewMoreDetailText/</loc>
+    <lastmod>2018-05-30T13:36:02.000Z</lastmod>
+    <data>
+        <display>
+        <title>查看更多效果实现</title>
+        <pubTime>2016-01-18T14:55:00.000Z</pubTime>
+        
+        <tag>Android UI</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2015/12/26/OutstandingBooks/</loc>
+    <lastmod>2018-05-30T13:12:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android猿猿们的福利</title>
+        <pubTime>2015-12-26T09:07:26.000Z</pubTime>
+        
+        <tag>Android开发必备书籍</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/06/27/activity-fragment-lifecycle/</loc>
+    <lastmod>2018-05-30T13:08:05.000Z</lastmod>
+    <data>
+        <display>
+        <title>Activity 和 Fragment 生命周期对比</title>
+        <pubTime>2016-06-27T10:08:44.000Z</pubTime>
+        
+        <tag>Activity Fragment生命周期</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/03/11/ThinkInPendingIntent/</loc>
+    <lastmod>2018-05-30T12:40:31.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android中Notification的PendingIntent无效问题解决</title>
+        <pubTime>2016-03-11T15:04:26.000Z</pubTime>
+        
+        <tag>埋坑</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/03/15/ThinkInEventBus/</loc>
+    <lastmod>2018-05-30T12:40:19.000Z</lastmod>
+    <data>
+        <display>
+        <title>EventBus的一些记录</title>
+        <pubTime>2016-03-15T11:04:53.000Z</pubTime>
+        
+        <tag>实战小技巧</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/01/25/TakePhotoSave/</loc>
+    <lastmod>2018-05-30T12:40:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>相机拍照即时保存，即时读取</title>
+        <pubTime>2016-01-25T09:26:23.000Z</pubTime>
+        
+        <tag>Androiod相机拍照</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/03/17/SublimeText-AndroidSourceConfig/</loc>
+    <lastmod>2018-05-30T12:40:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>SublimeText查看Android源码配置</title>
+        <pubTime>2016-03-17T05:21:10.000Z</pubTime>
+        
+        <tag>Android奇技淫巧</tag>
+         
+         
+           
+             
+              <breadCrumb title="工具" url="http://0x002.top/categories/%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2015/11/19/StudyAndroidWebsite/</loc>
+    <lastmod>2018-05-30T12:40:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>学习网站整理</title>
+        <pubTime>2015-11-19T14:12:59.000Z</pubTime>
+        
+        <tag>学习资料</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习网站整理" url="http://0x002.top/categories/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99%E6%95%B4%E7%90%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/03/08/ScollGesturesConflictSolve/</loc>
+    <lastmod>2018-05-30T12:39:40.000Z</lastmod>
+    <data>
+        <display>
+        <title>ScrollView中嵌套滚动控件手势解决</title>
+        <pubTime>2016-03-08T10:39:40.000Z</pubTime>
+        
+        <tag>Android事件处理</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/01/07/PerfectLoginActivity/</loc>
+    <lastmod>2018-05-30T12:39:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>用TextInputLayout打造友好的Login页面</title>
+        <pubTime>2016-01-07T14:27:37.000Z</pubTime>
+        
+        <tag>AndroidUI</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/05/11/mac-efficient-tools/</loc>
+    <lastmod>2018-05-30T12:39:19.000Z</lastmod>
+    <data>
+        <display>
+        <title>Mac上的一些高效而又不为人知的小工具</title>
+        <pubTime>2016-05-11T02:48:44.000Z</pubTime>
+        
+        <tag>Mac小工具</tag>
+         
+         
+           
+             
+              <breadCrumb title="工具" url="http://0x002.top/categories/%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/01/12/iTermConfiguration/</loc>
+    <lastmod>2018-05-30T12:39:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>iTerm新手必知</title>
+        <pubTime>2016-01-12T15:25:50.000Z</pubTime>
+        
+        <tag>iTerm配置</tag>
+         
+         
+           
+             
+              <breadCrumb title="工具" url="http://0x002.top/categories/%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2015/12/16/isRunningInEmualtor/</loc>
+    <lastmod>2018-05-30T12:39:05.000Z</lastmod>
+    <data>
+        <display>
+        <title>判断App是否在模拟器上运行</title>
+        <pubTime>2015-12-16T14:16:38.000Z</pubTime>
+        
+        <tag>Android奇技淫巧</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2015/11/26/Hero/</loc>
+    <lastmod>2018-05-30T12:38:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>程序员的黄金搭档</title>
+        <pubTime>2015-11-26T09:00:16.000Z</pubTime>
+        
+        <tag>工作</tag>
+         
+         
+           
+             
+              <breadCrumb title="随记" url="http://0x002.top/categories/%E9%9A%8F%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/01/28/HappyNewYear/</loc>
+    <lastmod>2018-05-30T12:38:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>猴年我也凑凑热闹</title>
+        <pubTime>2016-01-28T09:01:40.000Z</pubTime>
+        
+        <tag>开心一笑</tag>
+         
+         
+           
+             
+              <breadCrumb title="休息一下" url="http://0x002.top/categories/%E4%BC%91%E6%81%AF%E4%B8%80%E4%B8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/01/29/FuckAndroidSDK/</loc>
+    <lastmod>2018-05-30T12:38:30.000Z</lastmod>
+    <data>
+        <display>
+        <title>吐槽CollapsingToolbarLayout</title>
+        <pubTime>2016-01-29T07:02:35.000Z</pubTime>
+        
+        <tag>随记</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2015/11/17/First/</loc>
+    <lastmod>2018-05-30T12:38:26.000Z</lastmod>
+    <data>
+        <display>
+        <title>乔迁之喜</title>
+        <pubTime>2015-11-17T10:57:59.000Z</pubTime>
+        
+        <tag>随笔</tag>
+         
+         
+           
+             
+              <breadCrumb title="随记" url="http://0x002.top/categories/%E9%9A%8F%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/01/31/CustomTextShow/</loc>
+    <lastmod>2018-05-30T12:38:13.000Z</lastmod>
+    <data>
+        <display>
+        <title>自定义文本显示TextView</title>
+        <pubTime>2016-01-31T09:06:48.000Z</pubTime>
+        
+        <tag>自定义UI</tag>
+         
+        <tag>实战小技巧</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2015/12/01/AtomPlugins/</loc>
+    <lastmod>2018-05-30T12:38:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>AtomPlugins</title>
+        <pubTime>2015-12-01T14:49:39.000Z</pubTime>
+        
+        <tag>Atom插件</tag>
+         
+         
+           
+             
+              <breadCrumb title="工具" url="http://0x002.top/categories/%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/06/18/appSecurityStudy/</loc>
+    <lastmod>2018-05-30T12:37:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>App后台开发运维和架构实践Reading Notes 1</title>
+        <pubTime>2016-06-18T14:00:52.000Z</pubTime>
+        
+        <tag>App 后台开发运维和架构实践</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+             
+              <breadCrumb title="后台" url="http://0x002.top/categories/Android/%E5%90%8E%E5%8F%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2015/11/21/AppExit/</loc>
+    <lastmod>2018-05-30T12:37:49.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于App中再按一次退出实现方式</title>
+        <pubTime>2015-11-21T05:52:22.000Z</pubTime>
+        
+        <tag>Android小技巧</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/01/28/ApkProguardStudy/</loc>
+    <lastmod>2018-05-30T12:37:27.000Z</lastmod>
+    <data>
+        <display>
+        <title>Apk瘦身+Proguard混淆实战</title>
+        <pubTime>2016-01-28T14:55:58.000Z</pubTime>
+        
+        <tag>apk瘦身</tag>
+         
+        <tag>代码混淆</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/02/25/AndroidSupportLibrary23-2/</loc>
+    <lastmod>2018-05-30T12:37:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>AndroidSupportLibrary23.2重磅更新</title>
+        <pubTime>2016-02-25T02:02:03.000Z</pubTime>
+        
+        <tag>最新</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2015/12/19/AndroidStudioTemp/</loc>
+    <lastmod>2018-05-30T12:36:27.000Z</lastmod>
+    <data>
+        <display>
+        <title>AndroidStudio快速生成常用模板</title>
+        <pubTime>2015-12-19T15:05:26.000Z</pubTime>
+        
+        <tag>AndroidStudio小技巧</tag>
+         
+         
+           
+             
+              <breadCrumb title="AndroidStudio" url="http://0x002.top/categories/AndroidStudio/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/02/03/AndroidStudioProxy/</loc>
+    <lastmod>2018-05-30T12:36:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>AndroidStudio设置代理更新</title>
+        <pubTime>2016-02-03T03:41:15.000Z</pubTime>
+        
+        <tag>AndroidStudio小技巧</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/01/11/AndroidStudioGradleIssue/</loc>
+    <lastmod>2018-05-30T12:36:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>AndroidStudio导项目时的一些问题</title>
+        <pubTime>2016-01-11T15:18:17.000Z</pubTime>
+        
+        <tag>AndroidStudio</tag>
+         
+        <tag>工程导入</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2015/11/19/AndroidStudioCompilerError/</loc>
+    <lastmod>2018-05-30T12:36:05.000Z</lastmod>
+    <data>
+        <display>
+        <title>AndroidStudio中的javaMaxHeapSize和multiDexEnabled问题</title>
+        <pubTime>2015-11-19T10:28:56.000Z</pubTime>
+        
+        <tag>AndroidStudio</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/03/06/Android-zhihu-question/</loc>
+    <lastmod>2018-05-30T12:35:55.000Z</lastmod>
+    <data>
+        <display>
+        <title>面试时候一些问题回答</title>
+        <pubTime>2016-03-06T11:32:36.000Z</pubTime>
+        
+        <tag>面试回答</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/04/12/adb-study/</loc>
+    <lastmod>2018-05-30T12:35:41.000Z</lastmod>
+    <data>
+        <display>
+        <title>小白学Android之adb篇(一)</title>
+        <pubTime>2016-04-12T02:28:39.000Z</pubTime>
+        
+        <tag>Android奇技淫巧</tag>
+         
+        <tag>adb</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/04/18/adb-study-03/</loc>
+    <lastmod>2018-05-30T12:35:31.000Z</lastmod>
+    <data>
+        <display>
+        <title>小白学Android之adb篇(三)</title>
+        <pubTime>2016-04-18T14:27:44.000Z</pubTime>
+        
+        <tag>Android奇技淫巧</tag>
+         
+        <tag>adb</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://0x002.top/2016/04/14/adb-study-02/</loc>
+    <lastmod>2018-05-30T12:34:43.000Z</lastmod>
+    <data>
+        <display>
+        <title>小白学Android之adb篇(二)</title>
+        <pubTime>2016-04-14T08:50:29.000Z</pubTime>
+        
+        <tag>Android奇技淫巧</tag>
+         
+        <tag>adb</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+  <url>
+    <loc>http://0x002.top/2016/01/09/MaterDesignDemo/</loc>
+    <lastmod>2018-05-25T05:46:38.000Z</lastmod>
+    <data>
+        <display>
+        <title>用MaterDesign设计一个详情页面</title>
+        <pubTime>2016-01-09T13:55:26.000Z</pubTime>
+        
+        <tag>Android UI</tag>
+         
+        <tag>MaterDesign</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://0x002.top/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
