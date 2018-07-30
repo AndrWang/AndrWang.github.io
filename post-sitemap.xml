@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://0x002.top</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2018/07/30/%E5%8C%BA%E5%9D%97%E9%93%BE%E4%B9%8B%E5%8F%91%E5%B8%81/</loc>
+        <lastmod>2018-07-30T15:15:35.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/06/20/androidStuio-ndk-demo/</loc>
+        <lastmod>2018-05-31T05:57:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/05/25/gradle-diff-flavors/</loc>
+        <lastmod>2018-05-31T05:57:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/12/04/xiaochengxu/</loc>
+        <lastmod>2018-05-31T02:23:11.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2015/12/03/AndroidMultiChannelBuild/</loc>
+        <lastmod>2018-05-30T16:11:32.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2015/11/30/android-view-listen-event/</loc>
+        <lastmod>2018-05-30T16:10:32.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/01/18/ViewMoreDetailText/</loc>
+        <lastmod>2018-05-30T13:36:02.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2015/12/26/OutstandingBooks/</loc>
+        <lastmod>2018-05-30T13:12:53.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/06/27/activity-fragment-lifecycle/</loc>
+        <lastmod>2018-05-30T13:08:05.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/03/11/ThinkInPendingIntent/</loc>
+        <lastmod>2018-05-30T12:40:31.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/03/15/ThinkInEventBus/</loc>
+        <lastmod>2018-05-30T12:40:19.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/01/25/TakePhotoSave/</loc>
+        <lastmod>2018-05-30T12:40:14.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/03/17/SublimeText-AndroidSourceConfig/</loc>
+        <lastmod>2018-05-30T12:40:07.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2015/11/19/StudyAndroidWebsite/</loc>
+        <lastmod>2018-05-30T12:40:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/03/08/ScollGesturesConflictSolve/</loc>
+        <lastmod>2018-05-30T12:39:40.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/01/07/PerfectLoginActivity/</loc>
+        <lastmod>2018-05-30T12:39:37.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/05/11/mac-efficient-tools/</loc>
+        <lastmod>2018-05-30T12:39:19.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/01/12/iTermConfiguration/</loc>
+        <lastmod>2018-05-30T12:39:12.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2015/12/16/isRunningInEmualtor/</loc>
+        <lastmod>2018-05-30T12:39:05.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2015/11/26/Hero/</loc>
+        <lastmod>2018-05-30T12:38:56.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/01/28/HappyNewYear/</loc>
+        <lastmod>2018-05-30T12:38:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/01/29/FuckAndroidSDK/</loc>
+        <lastmod>2018-05-30T12:38:30.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2015/11/17/First/</loc>
+        <lastmod>2018-05-30T12:38:26.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/01/31/CustomTextShow/</loc>
+        <lastmod>2018-05-30T12:38:13.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2015/12/01/AtomPlugins/</loc>
+        <lastmod>2018-05-30T12:38:07.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/06/18/appSecurityStudy/</loc>
+        <lastmod>2018-05-30T12:37:56.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2015/11/21/AppExit/</loc>
+        <lastmod>2018-05-30T12:37:49.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/01/28/ApkProguardStudy/</loc>
+        <lastmod>2018-05-30T12:37:27.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/02/25/AndroidSupportLibrary23-2/</loc>
+        <lastmod>2018-05-30T12:37:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2015/12/19/AndroidStudioTemp/</loc>
+        <lastmod>2018-05-30T12:36:27.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/02/03/AndroidStudioProxy/</loc>
+        <lastmod>2018-05-30T12:36:24.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/01/11/AndroidStudioGradleIssue/</loc>
+        <lastmod>2018-05-30T12:36:15.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2015/11/19/AndroidStudioCompilerError/</loc>
+        <lastmod>2018-05-30T12:36:05.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/03/06/Android-zhihu-question/</loc>
+        <lastmod>2018-05-30T12:35:55.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/04/12/adb-study/</loc>
+        <lastmod>2018-05-30T12:35:41.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/04/18/adb-study-03/</loc>
+        <lastmod>2018-05-30T12:35:31.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/04/14/adb-study-02/</loc>
+        <lastmod>2018-05-30T12:34:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://0x002.top/2016/01/09/MaterDesignDemo/</loc>
+        <lastmod>2018-05-25T05:46:38.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->
