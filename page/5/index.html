@@ -352,6 +352,172 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://0x002.top/2016/01/11/AndroidStudioGradleIssue/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ken">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ken">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/01/11/AndroidStudioGradleIssue/" itemprop="url">AndroidStudio导项目时的一些问题</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-01-11T23:18:17+08:00">
+                2016-01-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/01/11/AndroidStudioGradleIssue/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2016/01/11/AndroidStudioGradleIssue/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>这里陆陆续续的收录一些关于AS的问题。<br>今天在GitHub上面发现一个好的项目，导入到AS里面竟发现不能运行，报的错误也是千奇百怪，<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Error:Execution failed <span class="keyword">for</span> task <span class="string">':app:transformResourcesWithMergeJavaResForDebug'</span>. &gt; com.android.build.api.transform.TransformException: com.android.builder.packaging.DuplicateFileException: Duplicate files copied in APK META-INF/NOTICE</span><br></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<p>有这么一排错误，Google了半天，要这样做，在你的gradle中加入<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">packagingOptions &amp;#123;</span><br><span class="line">    exclude <span class="string">'META-INF/DEPENDENCIES.txt'</span></span><br><span class="line">    exclude <span class="string">'META-INF/LICENSE.txt'</span></span><br><span class="line">    exclude <span class="string">'META-INF/NOTICE.txt'</span></span><br><span class="line">    exclude <span class="string">'META-INF/NOTICE'</span></span><br><span class="line">    exclude <span class="string">'META-INF/LICENSE'</span></span><br><span class="line">    exclude <span class="string">'META-INF/DEPENDENCIES'</span></span><br><span class="line">    exclude <span class="string">'META-INF/notice.txt'</span></span><br><span class="line">    exclude <span class="string">'META-INF/license.txt'</span></span><br><span class="line">    exclude <span class="string">'META-INF/dependencies.txt'</span></span><br><span class="line">    exclude <span class="string">'META-INF/LGPL2.1'</span></span><br><span class="line">&amp;#125;</span><br></pre></td></tr></table></figure></p>
+<p>还有一个问题如果你想在API23中使用AndroidHttpClient，必须要这么做。在你的build.gradle中加入<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">android &amp;#123;</span><br><span class="line">    useLibrary <span class="string">'org.apache.http.legacy'</span></span><br><span class="line">&amp;#125;</span><br></pre></td></tr></table></figure></p>
+<p>因为Android 6.0已经废弃了支持Apache HTTP client. 官方不建议使用了，如果迫不得已使用，加上那个就好了。</p>
+<p><b>版权声明：</b><br></p>
+<p><hr><br><em>除非注明，本博文章均为原创，转载请以链接形式标明本文地址。</em><br></p>
+
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/01/11/AndroidStudioGradleIssue/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://0x002.top/2016/01/09/MaterDesignDemo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1167,174 +1333,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://0x002.top/2015/12/03/AndroidMultiChannelBuild/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Ken">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Ken">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2015/12/03/AndroidMultiChannelBuild/" itemprop="url">多渠道打包那些事</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-12-03T11:26:41+08:00">
-                2015-12-03
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/AndroidStudio/" itemprop="url" rel="index">
-                    <span itemprop="name">AndroidStudio</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2015/12/03/AndroidMultiChannelBuild/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2015/12/03/AndroidMultiChannelBuild/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>最近在AndroidStudio上进行多渠道打包，虽然渠道包不多，但是手动打包，一向很懒的程序员往往是不会干的，好的工具都是懒人创造出来的。<a id="more"></a><br>之前就看过<a href="http://stormzhang.com/devtools/2015/01/15/android-studio-tutorial6/" target="_blank" rel="noopener">stormzhang</a>关于多渠道打包的那些事，但是每个公司的渠道不一样，有各种各样的渠道号，今天就被两种给搞的一直编译不过。原来是这样.<br>如果你的渠道号中有360，91这一类，那么你的productFlavors里面的配置就要这样，渠道前面加_</p>
-<p><code>_360 &lt;&amp;#125;</code></p>
-<p>如果你的渠道号中有这么一类，abc.bug,那么你就要这样写</p>
-<p><code>&quot;abc.bug &lt;&amp;#125;&quot;</code></p>
-<p>还有就是刚开始的时候打包成功，但是上传到各大AppMarket的时候，提示此App未签名。有一个地方一定要写上，stormzhang上面也有，但是这里重点提醒一下</p>
-<p><code>signingConfig signingConfigs.release</code></p>
-<p>就是这句一定要加上，不然虽然包能打出来，但是是无效的。</p>
-<p><strong>版权声明：</strong><br></p>
-<p><hr><br>除非注明，本博文章均为原创，转载请以链接形式标明本文地址。<br></p>
-
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/12/03/AndroidMultiChannelBuild/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1389,7 +1387,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">37</span>
+                  <span class="site-state-item-count">38</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>

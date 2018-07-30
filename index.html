@@ -352,6 +352,151 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://0x002.top/2018/07/29/区块链之发币/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ken">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ken">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/29/区块链之发币/" itemprop="url">未命名</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-29T22:10:10+08:00">
+                2018-07-29
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/07/29/区块链之发币/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/07/29/区块链之发币/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h1><span id="通过发币学习以太坊智能合约">通过发币学习以太坊智能合约</span></h1><p>点进来我就把你当成一个会写代码，玩过 ICO 的人，ICO 通过发币融资的方式分分钟走向人生巅峰，迎娶白富美，那么到底是如何发币，发币难不难，我们只知道炒币，不知道发币，那你怎么敢买的？</p>
+<p>一个简单的 token 合约包括：代码部署，转账，上传代码到etherscan并验证，代币管理，代币增发，冻结，销毁，到我们熟知的 ICO。</p>
+<p>###开发环境，在线IDE </p>
+<p><strong><a href="https://remix.ethereum.org/#version=soljson-v0.4.24+commit.c2215d46.js&amp;optimize=false" target="_blank" rel="noopener">remix</a></strong></p>
+<p>首先来看一下最简单并且可以转账的代币长什么样：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">pragma solidity ^0.4.24;</span><br><span class="line"></span><br><span class="line">contract SimpleToken &#123;</span><br><span class="line">    mapping(address =&gt; uint256) public balanceOf;</span><br><span class="line">    </span><br><span class="line">    constructor (uint256 init) public&#123;</span><br><span class="line">        balanceOf[msg.sender] = init;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    function transfer(address _to, uint256 _value) public&#123;</span><br><span class="line">        //防溢出</span><br><span class="line">        require(balanceOf[msg.sender] &gt;= _value);</span><br><span class="line">        require(balanceOf[_to] + _value &gt;= balanceOf[_to]);</span><br><span class="line">        </span><br><span class="line">        balanceOf[msg.sender] -= _value;</span><br><span class="line">        balanceOf[_to] += _value;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>那我们去 <a href="https://etherscan.io/tokens" target="_blank" rel="noopener">etherscan</a> 上看一下，正经的代币长什么样子，都包含哪些东西。</p>
+<p>以 <a href="https://etherscan.io/token/0xB8c77482e45F1F44dE1745F52C74426C631bDD52#readContract" target="_blank" rel="noopener">BNB</a> 为例，有 name，totalSupply，decimals，balanceOf，owner，symbol，freezeOf，allowance。</p>
+<p>其中name，totalSupply，decimals，symbol 是ERC20标准代币规范，每个代币都必须要有的。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/29/区块链之发币/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://0x002.top/2016/12/04/xiaochengxu/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1202,180 +1347,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://0x002.top/2016/05/11/mac-efficient-tools/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Ken">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Ken">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2016/05/11/mac-efficient-tools/" itemprop="url">Mac上的一些高效而又不为人知的小工具</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-05-11T10:48:44+08:00">
-                2016-05-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/工具/" itemprop="url" rel="index">
-                    <span itemprop="name">工具</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2016/05/11/mac-efficient-tools/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2016/05/11/mac-efficient-tools/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>网上也有很多的介绍如何玩转你的Mac，For example<a href="https://www.zhihu.com/question/20873070" target="_blank" rel="noopener">程序员如何优雅地使用 Mac？</a>知乎的这一篇就很不错，当然还有很多，但是今天我还要去写，写我自己一直在用的，而且用的很给力的一些小工具介绍给大家。</p>
-<a id="more"></a>
-<p>用Mac也快一年了，先晒一下我一直在用的一些(多图预警，请注意)</p>
-<p><img src="http://ww2.sinaimg.cn/large/005yqym4gw1f3r9ibobpsj31kw0teah0.jpg" alt="-c"><br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3r9m466a8j31kw0u6n48.jpg" alt="-c"><br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3r9o6ci0fj31kw0fctbk.jpg" alt="-c"><br><img src="http://ww4.sinaimg.cn/large/005yqym4gw1f3r9noms48j31kw0etq53.jpg" alt="-c"><br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3r9l0rgmyj31kw08xjtc.jpg" alt="-c"></p>
-<p>当然还有一些例如QQ，微信，邮箱等啊，这些基本属于必备用品了，这里不多说，上面晒出的5张图是我的5个分类，大家可能也能看出来，这里捡一些好玩而且经常用到的Application来一起看看。</p>
-<ul>
-<li><a href="https://github.com/mortenjust/droptogif" target="_blank" rel="noopener">Drop to Gif</a></li>
-</ul>
-<p>见名知意，就是将我们平时的一些小视频转成GIF的一个小工具。附上他的一个使用效果<br><img src="https://raw.githubusercontent.com/mortenjust/droptogif/master/ux/demos/demo_dragon.gif" alt="-c"></p>
-<ul>
-<li><a href="https://www.mediaatelier.com/CheatSheet/" target="_blank" rel="noopener">CheatSheet</a></li>
-</ul>
-<p>CheatSheet 做的事情很简单，就是在你使用任何软件的时候，长按Command键，即可显示当前软件的所有快捷键。通过这个提示功能，便能快速地找到你想要的快捷键.下面是在Android Studio上面的使用情景<br><img src="http://ww3.sinaimg.cn/large/005yqym4gw1f3rel5vvwcj31ci0gvq7z.jpg" alt="-c"></p>
-<ul>
-<li>Sip</li>
-</ul>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/05/11/mac-efficient-tools/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1430,7 +1401,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">37</span>
+                  <span class="site-state-item-count">38</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
